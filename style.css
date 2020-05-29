@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,700');
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	width: 100%;
+}
+
+
+img {
+	text-align: center;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.intro {
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background: url(https://images.pexels.com/photos/3385234/pexels-photo-3385234.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) no-repeat 50% 50%;
+	background-size: cover;
+	display: table;
+	top: 0;
+}
+.intro .inner{
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+	max-width: none;
+}
+h1 {
+	font-family: 'Playfare Display', serif;
+	font-size: 300%;
+	font-weight: 700;
+	color: #FFF;
+	text-align: center;
+	padding: 2%;
+	text-shadow: 0px 0px 250px #000;
+}
+.inner {
+	max-width: 600px;
+	margin: auto;
+	font-size: 170%;
+	line-height: 1.6;
+	padding: 10px;
+}
+
+.one-two {
+	width: 20%;
+	padding: 2%;
+	float: left;
+}
+.one-two img:hover {
+	opacity: .6;
+}
+.contact p {
+	text-align: center;
+	letter-spacing: 5px;
+}
+.contact a {
+	color: #2C2C2C;
+	text-decoration: none;
+}
+.break {
+	display: none;
+}
+.clearfix {
+	clear: both;
+	height: 3%;
+}
+.parallax {
+	background: url(https://images.pexels.com/photos/3812743/pexels-photo-3812743.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500) repeat fixed 100%;
+	opacity: .5;
+}
+.parallax-inner {
+	padding-top: 17%;
+}
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+.social li {
+	display: inline;
+}
+.social i {
+	font-size: 270%;
+	margin: 1% 5% 7% 4%;
+	color: #2C2C2C;
+}
+.social i:hover {
+	color: #606060;
+}
+footer.second {
+	background-color: #2C2C2C;
+}
+footer.second p {
+	color: #FFF;
+	text-align: center;
+	margin: 5%;
+}
+@media screen and (max-width: 768px) {
+	#menu-icon {
+		margin: 26px 0 0 26px;
+	}
+	nav ul, nav:active ul {
+		padding: 8px 0;
+		left: 23px;
+		top: 34px;
+		width: 50%;
+	}
+	.inner {
+		font-size: 120%;
+	}
+	.content h1 {
+		font-size: 180%;
+	}
+	p {
+		font-size: 120%;
+	}
+	h2 {
+		font-size: 160%;
+	}
+	.left-col {
+		width: 96%;
+		margin: 0 0 3% 0;
+		padding: 0 2%;
+	}
+	.sidebar {
+		width: 96%;
+		margin: 0 auto;
+	}
+	img {
+		padding: 2%;
+	}
+	.one-third-port {
+		width: 96%;
+		margin: 0 auto;
+		padding: 0;
+	}
+	.break {
+		display: block;
+	}
+	.parallax {
+		display: none;
+	}
+	.social i {
+		font-size: 170%;
+	}
+
+}
+.footer-copyright{
+	background-color: #3f3f44;
+	color: #FFF;
+}
