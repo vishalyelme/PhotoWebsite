@@ -47,11 +47,6 @@ h1 {
 	padding: 10px;
 }
 
-.one-two {
-	width: 20%;
-	padding: 2%;
-	float: left;
-}
 .one-two img:hover {
 	opacity: .6;
 }
